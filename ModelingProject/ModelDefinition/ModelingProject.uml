@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="47ba2fee-0804-4c09-b62f-d4fc700e2855"
+  name="ModelingProject" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="e2bc37d2-8c84-4483-b080-622e057814f9">
+      <profileInstance
+        Id="6e6240ca-94dc-4504-afaa-8e82ce77db33"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="2ed48b99-d456-47f2-a564-dcf083079f3e"
+        name="Class1"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="bbf19f48-76ee-4b92-91a2-cdb1274b4702"
+        LastKnownName="ControleMoldagem"
+        LastKnownLocation="Package_1558.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="71d4c4fd-b671-4663-94db-263d7c653b94"
+        LastKnownName="System"
+        LastKnownLocation="Package2_1558.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="03d135a3-f143-430c-9ab3-cb280475fea1"
+        name="ControleMoldagemDataSet"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="eef07764-c569-4090-a92a-9f4b5fd24ab2"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVitor%2Fdocuments%2Fvisual studio 2012%2FProjects%2FControleMoldagem%2FControleMoldagem%2Fbin%2FDebug%2FControleMoldagem.exe&quot; Type%3DControleMoldagemDataSet"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="11d93fd1-b9b2-4ad1-a124-ff4101860f53"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6be7ca9b-5ee0-486b-bd79-41a73c089ce0">
+                <propertyInstance
+                  Id="202d8e2d-0df3-4d3d-9807-a3fa4db583bb"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f2f1c2d9-711e-424f-b7ef-264fa3bb9b5f">
+                <propertyInstance
+                  Id="30323e5f-e445-4909-ada6-6dab80e78d60"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="af3fde86-3c6b-4bc9-9e59-fb22f89ffe0b">
+                <propertyInstance
+                  Id="7733ac44-6e83-4974-9bf7-1ac9a30caee7"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="deb2218a-4400-4f5c-9296-0ae9336f0f0e">
+                <propertyInstance
+                  Id="d59c0c28-3476-4bae-ab46-9cfd80c608bd"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f47ab884-f7e4-4d5b-85b7-bb60829c7289">
+                <propertyInstance
+                  Id="c2807a6f-0953-4999-8b98-ded22d4cace8"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="d98d126a-7fda-4ab7-a5e7-232e4cfc0a6c"
+        LastKnownName="Package1"
+        LastKnownLocation="Package_1605.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="0d686bbc-1ef6-4542-a3b0-6c1aa0d4e830"
+        LastKnownName="Package2"
+        LastKnownLocation="Package5_1640.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="9315d18a-9ac0-424a-a7eb-648edf548459"
+        LastKnownName="Package3"
+        LastKnownLocation="Package_1642.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{854CB041-CA01-4A00-BA76-DF870958E052}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ControleMoldagem</RootNamespace>
+    <AssemblyName>ControleMoldagem</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Installer\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>EE6826A6DEFD5D24E579E9DD0C7BA7AE9C715FDD</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>ControleMoldagem_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dados\Conexao.cs" />
+    <Compile Include="Dados\Criptografia.cs" />
+    <Compile Include="Dados\DBtoExl.cs" />
+    <Compile Include="Dados\RepositorioCodigoBarras.cs" />
+    <Compile Include="Dados\RepositorioEixo.cs" />
+    <Compile Include="Dados\RepositorioLote.cs" />
+    <Compile Include="Dados\RepositorioMoldagem.cs" />
+    <Compile Include="Dados\RepositorioObra.cs" />
+    <Compile Include="Dados\RepositorioPeca.cs" />
+    <Compile Include="Dados\RepositorioRelatorio.cs" />
+    <Compile Include="Dados\RepositorioResistencia.cs" />
+    <Compile Include="Dados\RepositorioRuptura.cs" />
+    <Compile Include="Dados\RepositorioTraco.cs" />
+    <Compile Include="Entidades\CodigoBarras.cs" />
+    <Compile Include="Entidades\Eixo.cs" />
+    <Compile Include="Entidades\Lote.cs" />
+    <Compile Include="Entidades\Moldagem.cs" />
+    <Compile Include="Entidades\Obra.cs" />
+    <Compile Include="Entidades\Peca.cs" />
+    <Compile Include="Entidades\Resistencia.cs" />
+    <Compile Include="Entidades\Ruptura.cs" />
+    <Compile Include="ExltoDB.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\BuscaSerie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\BuscaSerie.Designer.cs">
+      <DependentUpon>BuscaSerie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Configuracoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Configuracoes.Designer.cs">
+      <DependentUpon>Configuracoes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\formModagem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\formModagem.designer.cs">
+      <DependentUpon>formModagem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Inicio1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Inicio1.Designer.cs">
+      <DependentUpon>Inicio1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ObraCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\ObraCadastro.Designer.cs">
+      <DependentUpon>ObraCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\PrimeiroAcesso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\PrimeiroAcesso.Designer.cs">
+      <DependentUpon>PrimeiroAcesso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Principal.Designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\RelatorioAgenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\RelatorioAgenda.Designer.cs">
+      <DependentUpon>RelatorioAgenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\RelatorioCodigoBarras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\RelatorioCodigoBarras.Designer.cs">
+      <DependentUpon>RelatorioCodigoBarras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\RelatorioFCK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\RelatorioFCK.Designer.cs">
+      <DependentUpon>RelatorioFCK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\RelatorioResistencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\RelatorioResistencia.Designer.cs">
+      <DependentUpon>RelatorioResistencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Ruptura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Ruptura.Designer.cs">
+      <DependentUpon>Ruptura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Senha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Senha.Designer.cs">
+      <DependentUpon>Senha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Sobre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Sobre.Designer.cs">
+      <DependentUpon>Sobre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\teste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\teste.Designer.cs">
+      <DependentUpon>teste.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\TracoCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\TracoCadastro.Designer.cs">
+      <DependentUpon>TracoCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Entidades\Traco.cs" />
+    <Compile Include="Regras\CadastrarResistencia.cs" />
+    <Compile Include="Regras\CadastroCodigoBarras.cs" />
+    <Compile Include="Regras\CadastroEixo.cs" />
+    <Compile Include="Regras\CadastroLote.cs" />
+    <Compile Include="Regras\CadastroMoldagem.cs" />
+    <Compile Include="Regras\CadastroObra.cs" />
+    <Compile Include="Regras\CadastroPeca.cs" />
+    <Compile Include="Regras\CadastroRuptura.cs" />
+    <Compile Include="Regras\CadastroTraco.cs" />
+    <Compile Include="Regras\Relatorio.cs" />
+    <Compile Include="Settings.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\BuscaSerie.resx">
+      <DependentUpon>BuscaSerie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Configuracoes.resx">
+      <DependentUpon>Configuracoes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\formModagem.resx">
+      <DependentUpon>formModagem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Inicio1.resx">
+      <DependentUpon>Inicio1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ObraCadastro.resx">
+      <DependentUpon>ObraCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\PrimeiroAcesso.resx">
+      <DependentUpon>PrimeiroAcesso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\RelatorioAgenda.resx">
+      <DependentUpon>RelatorioAgenda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\RelatorioCodigoBarras.resx">
+      <DependentUpon>RelatorioCodigoBarras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\RelatorioFCK.resx">
+      <DependentUpon>RelatorioFCK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\RelatorioResistencia.resx">
+      <DependentUpon>RelatorioResistencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Ruptura.resx">
+      <DependentUpon>Ruptura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Senha.resx">
+      <DependentUpon>Senha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Sobre.resx">
+      <DependentUpon>Sobre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\teste.resx">
+      <DependentUpon>teste.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\TracoCadastro.resx">
+      <DependentUpon>TracoCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="ClassDiagram3.cd" />
+    <None Include="ControleMoldagem_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Interface\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Imagens\CP1.bmp" />
+    <Content Include="Imagens\CP3.bmp" />
+    <None Include="Resources\Logo MaxBeton jpg 10k.jpg" />
+    <None Include="Resources\CP3.bmp" />
+    <None Include="Resources\CP1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

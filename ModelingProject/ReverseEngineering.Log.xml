@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 11.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2014-09-12T16:56:10" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Integer' -  (PrimitiveType)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem' -  (Package)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Dados' -  (Package)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Dados::Conexao' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Dados::RepositorioTraco' -  (Class)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Dados::RepositorioTraco::buscar' -  (Operation)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Dados::RepositorioTraco::buscar::campo' -  (Parameter)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Dados::RepositorioTraco::buscar::codigo' -  (Parameter)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Dados::RepositorioTraco::buscarTudo' -  (Operation)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Dados::RepositorioTraco::con' -  (Property)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Dados::RepositorioTraco::editar' -  (Operation)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Dados::RepositorioTraco::editar::codigo' -  (Parameter)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Dados::RepositorioTraco::editar::traco' -  (Parameter)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Dados::RepositorioTraco::inserir' -  (Operation)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Dados::RepositorioTraco::inserir::traco' -  (Parameter)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Dados::RepositorioTraco::remover' -  (Operation)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Dados::RepositorioTraco::remover::codigo' -  (Parameter)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Dados::RepositorioTraco::RepositorioTraco' -  (Operation)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Entidades' -  (Package)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Entidades::Traco' -  (Class)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Entidades::Traco::codigoTraco' -  (Property)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Entidades::Traco::CodigoTraco' -  (Property)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Entidades::Traco::consistencia' -  (Property)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Entidades::Traco::Consistencia' -  (Property)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Entidades::Traco::consumoCimento' -  (Property)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Entidades::Traco::ConsumoCimento' -  (Property)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Entidades::Traco::fatorAC' -  (Property)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Entidades::Traco::FatorAC' -  (Property)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Entidades::Traco::fck' -  (Property)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Entidades::Traco::Fck' -  (Property)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Entidades::Traco::idadeControle' -  (Property)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Entidades::Traco::IdadeControle' -  (Property)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Entidades::Traco::idTraco' -  (Property)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Entidades::Traco::IdTraco' -  (Property)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Entidades::Traco::tolerancia' -  (Property)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Entidades::Traco::Tolerancia' -  (Property)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Entidades::Traco::Traco' -  (Operation)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Entidades::Traco::Traco::codigoTraco' -  (Parameter)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Entidades::Traco::Traco::consistencia' -  (Parameter)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Entidades::Traco::Traco::consumoCimento' -  (Parameter)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Entidades::Traco::Traco::fatorAC' -  (Parameter)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Entidades::Traco::Traco::fck' -  (Parameter)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Entidades::Traco::Traco::idadeControle' -  (Parameter)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Entidades::Traco::Traco::idTraco' -  (Parameter)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Entidades::Traco::Traco::usina' -  (Parameter)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Entidades::Traco::usina' -  (Property)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Entidades::Traco::Usina' -  (Property)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Regras' -  (Package)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Regras::CadastroTraco' -  (Class)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Regras::CadastroTraco::BuscarTodos' -  (Operation)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Regras::CadastroTraco::BuscarTraco' -  (Operation)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Regras::CadastroTraco::BuscarTraco::campo' -  (Parameter)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Regras::CadastroTraco::BuscarTraco::codigoTraco' -  (Parameter)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Regras::CadastroTraco::CadastroTraco' -  (Operation)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Regras::CadastroTraco::EditarTraco' -  (Operation)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Regras::CadastroTraco::EditarTraco::codigoTraco' -  (Parameter)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Regras::CadastroTraco::EditarTraco::consistencia' -  (Parameter)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Regras::CadastroTraco::EditarTraco::consumoCimento' -  (Parameter)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Regras::CadastroTraco::EditarTraco::fatorAC' -  (Parameter)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Regras::CadastroTraco::EditarTraco::fck' -  (Parameter)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Regras::CadastroTraco::EditarTraco::idadeControle' -  (Parameter)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Regras::CadastroTraco::EditarTraco::novo' -  (Parameter)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Regras::CadastroTraco::EditarTraco::tolerancia' -  (Parameter)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Regras::CadastroTraco::EditarTraco::usina' -  (Parameter)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Regras::CadastroTraco::InserirTraco' -  (Operation)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Regras::CadastroTraco::InserirTraco::codigoTraco' -  (Parameter)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Regras::CadastroTraco::InserirTraco::consistencia' -  (Parameter)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Regras::CadastroTraco::InserirTraco::consumoCimento' -  (Parameter)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Regras::CadastroTraco::InserirTraco::fatorAC' -  (Parameter)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Regras::CadastroTraco::InserirTraco::fck' -  (Parameter)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Regras::CadastroTraco::InserirTraco::idadeControle' -  (Parameter)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Regras::CadastroTraco::InserirTraco::tolerancia' -  (Parameter)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Regras::CadastroTraco::InserirTraco::usina' -  (Parameter)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Regras::CadastroTraco::RemoverTraco' -  (Operation)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Regras::CadastroTraco::RemoverTraco::codigoTraco' -  (Parameter)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::ControleMoldagem::Regras::CadastroTraco::rtraco' -  (Property)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::System' -  (Package)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::System::Data' -  (Package)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::System::Data::DataTable' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::System::Decimal' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'String' -  (PrimitiveType)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject::ControleMoldagem::Entidades::Traco to ModelingProject::System::Decimal (Association)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject::ControleMoldagem::Entidades::Traco to ModelingProject::System::Decimal (Association)" />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="High" Text="(3) type(s) fully reverse engineered." />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="High" Text="(3) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements." />
+  <Message Timestamp="2014-09-12T16:56:16" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+</Log>

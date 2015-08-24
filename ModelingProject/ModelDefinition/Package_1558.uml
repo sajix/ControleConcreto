@@ -1,0 +1,1810 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="bbf19f48-76ee-4b92-91a2-cdb1274b4702"
+  name="ControleMoldagem"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="f94567e6-553e-42fd-b58c-4e8e5c8c1c89"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DControleMoldagem"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="c9278156-a8d5-4e67-8f2c-7f7a8bacf070"
+        LastKnownName="Dados"
+        LastKnownLocation="Package1_1558.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="ce49e954-1662-4550-b0bf-1d7672885496"
+        LastKnownName="Regras"
+        LastKnownLocation="Package_1559.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="eb15f345-e0fb-484d-807d-393b3b3f06f1"
+        LastKnownName="Entidades"
+        LastKnownLocation="Package1_1559.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="28d7efeb-5af9-460c-97d4-0a56a687b9b6"
+        LastKnownName="GUI"
+        LastKnownLocation="Package_1603.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="c5ae9124-951e-4526-ace9-80168d67c21e"
+        name="ExltoDB"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="dedb7cf6-425c-484f-9550-e4ae8f15f8df"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVitor%2Fdocuments%2Fvisual studio 2012%2FProjects%2FControleMoldagem%2FControleMoldagem%2Fbin%2FDebug%2FControleMoldagem.exe&quot; Namespace%3DControleMoldagem Type%3DExltoDB"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="a910dfcb-eda3-47ce-b1b8-56740648fabe"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ce00a71f-dbf9-4188-b20d-874a272e480f">
+                <propertyInstance
+                  Id="92b44a9d-b4cc-4267-9cf9-9e3540c2f4a3"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e2b2a9d0-1fa2-458c-a468-e9c2bcd339fe">
+                <propertyInstance
+                  Id="633a6ebf-fbea-479f-8725-89211f9ea9c2"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ca23e6fb-acf7-494c-860b-b38e90fb5404">
+                <propertyInstance
+                  Id="d44d8c1e-a104-419c-99e4-ac6917459c8d"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e0ba1276-ba7a-47c3-8c9b-7c23e6dc87b7">
+                <propertyInstance
+                  Id="73017c39-32b2-4f4e-8192-d36aab00f29b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c4374522-f327-483c-9ede-5e55655acc68">
+                <propertyInstance
+                  Id="e4b76c2e-f9c5-4f8a-ac10-a769ecaf3061"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="1bbd96c3-b589-4bce-8767-34b8c4e83cb6"
+            name="cTraco"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="54621386-b692-4d2e-ba85-567a6471185f"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVitor%2Fdocuments%2Fvisual studio 2012%2FProjects%2FControleMoldagem%2FControleMoldagem%2Fbin%2FDebug%2FControleMoldagem.exe&quot; Namespace%3DControleMoldagem Type%3DExltoDB Member%3DcTraco"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1222604b-9013-4a61-9ea9-7c639ce19627"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3444995c-3ef6-4b17-9fff-608a2abe3828">
+                    <propertyInstance
+                      Id="584bdf6d-b630-4579-89cf-795d89585bea"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f26ae87c-7275-43aa-903a-ec9cbce77548">
+                    <propertyInstance
+                      Id="61e616c7-b508-48e2-a570-6f5ff99f3ed0"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1a7673c7-37e9-411c-8ec5-e2719d3e3322">
+                    <propertyInstance
+                      Id="74d2b52a-8170-4720-9ca6-fbcfcd83fdde"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f1ff3ffd-2518-4ae0-a8bf-41e031bd2e14">
+                    <propertyInstance
+                      Id="15e08e8e-8255-4e16-907c-9227352483a9"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0c930977-ff44-4bb2-b78d-5546fb029074">
+                    <propertyInstance
+                      Id="972db931-ced8-43bf-8b0a-147b08d56254"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="0b171ad9-5854-4d51-8699-1fdc93152e17"
+                LastKnownName="CadastroTraco"
+                LastKnownLocation="Package_1559.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="744bb6af-1f41-400e-9da8-ba7161ddd9b4"
+            name="con"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="b3ea21cf-5291-49f0-b418-e28896efa632"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVitor%2Fdocuments%2Fvisual studio 2012%2FProjects%2FControleMoldagem%2FControleMoldagem%2Fbin%2FDebug%2FControleMoldagem.exe&quot; Namespace%3DControleMoldagem Type%3DExltoDB Member%3Dcon"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0f2eb85f-bcaf-4433-9154-aaa1559d544a"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c2a3e8a6-fc76-4095-9b3a-2e0d2e1e9396">
+                    <propertyInstance
+                      Id="652b3402-31e5-4d2a-9c22-14c0b9474b11"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ccb5c4f5-0dc7-41d5-b63b-b295ec871e2e">
+                    <propertyInstance
+                      Id="af95ad96-86fd-4863-b9d5-1c1f67fe7121"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="630d4747-2994-440c-aad2-1db64500a04c">
+                    <propertyInstance
+                      Id="ec1d54f4-e6d5-471c-950d-fa2f1d176b06"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5546050a-0050-4c9c-8b47-3a8128082a1d">
+                    <propertyInstance
+                      Id="791f5f34-3d40-417c-b58c-143434397df1"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="27ba532e-4f4e-4159-8d1f-4d0ae116d118">
+                    <propertyInstance
+                      Id="1e0a7f73-fecc-4e91-85a0-d05e195c49d7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="1f688222-9488-4907-8eab-335e550d5119"
+                LastKnownName="Conexao"
+                LastKnownLocation="Package1_1558.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="35ca35d5-c66c-4b0b-9481-7ef40b102297"
+            name="ExportarCodigoBarras"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ef5bc1d5-7dc6-42f2-97b4-83f278c3a225"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVitor%2Fdocuments%2Fvisual studio 2012%2FProjects%2FControleMoldagem%2FControleMoldagem%2Fbin%2FDebug%2FControleMoldagem.exe&quot; Namespace%3DControleMoldagem Type%3DExltoDB Member%3D(Name%3DExportarCodigoBarras OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DProgressBar)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="bebe5b24-bfca-48d6-b07c-7095185d10aa"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6fbd3877-005d-4e0b-8f57-cadd55c152b0">
+                    <propertyInstance
+                      Id="b2a9ab26-4bf3-4e83-a9a5-977679ab3677"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fd0bc695-dbe1-4d37-9400-ec1747078f87">
+                    <propertyInstance
+                      Id="20b6e55c-6336-43a1-8240-21a22066039c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9833d5dc-745b-417f-abc1-a0dbb6e90d91">
+                    <propertyInstance
+                      Id="73e41d7c-c3de-49e3-98ba-e83d3fe2023b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1ec536f5-bfa9-4ff5-a550-bfeb47213f73">
+                    <propertyInstance
+                      Id="e628d774-3143-4b38-85a8-0624970dde5e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1d5055c7-70ab-4fca-956c-50c892e55ca0">
+                    <propertyInstance
+                      Id="43615ba6-1818-4039-a411-ffdddc65bb5f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e023141e-b50d-479d-8a74-d4649970321a">
+                    <propertyInstance
+                      Id="76036aa7-db90-4d58-a6de-80af6282ef04"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4141861e-405f-4a91-a801-3497723cf900"
+                  name="pBar"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="4a6a40c6-2057-463f-8d4b-2e09c3e03a82"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVitor%2Fdocuments%2Fvisual studio 2012%2FProjects%2FControleMoldagem%2FControleMoldagem%2Fbin%2FDebug%2FControleMoldagem.exe&quot; Namespace%3DControleMoldagem Type%3DExltoDB Member%3D(Name%3DExportarCodigoBarras OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DProgressBar)]) ParameterIdentifier%3DpBar"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="338ceb0e-a889-4761-9452-c4c6af9610b4"
+                      LastKnownName="ProgressBar"
+                      LastKnownLocation="Package1_1602.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="7f9d7332-fdd1-4920-88d7-e0491f38ed37"
+            name="ExportarResistencia"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="655d1d6d-5051-4b48-9644-be90e6efdbed"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVitor%2Fdocuments%2Fvisual studio 2012%2FProjects%2FControleMoldagem%2FControleMoldagem%2Fbin%2FDebug%2FControleMoldagem.exe&quot; Namespace%3DControleMoldagem Type%3DExltoDB Member%3D(Name%3DExportarResistencia OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DProgressBar)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="fd056315-85c3-4253-9b83-e27c043d1268"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="88942c79-ef5e-49dd-8ac6-3aaa5ffbf42e">
+                    <propertyInstance
+                      Id="5d416a7c-ff4f-41c1-b46f-fd2c091c817c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="98e28f85-9ea5-4bab-a241-2153a29e01bc">
+                    <propertyInstance
+                      Id="aecd4515-6877-4b9b-a751-1b418fe53192"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b91bbe8c-9404-4b39-98bd-48e8c97a3993">
+                    <propertyInstance
+                      Id="f159b6ef-07bb-49db-8a91-ec47e8ee8b67"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eca28b4f-34c6-4ed4-bef6-44028687adb3">
+                    <propertyInstance
+                      Id="a222810d-fec7-43a0-b7d0-b35ba4b41790"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d820dbfe-38f5-4f15-b736-c02184c02e8c">
+                    <propertyInstance
+                      Id="f5855fd9-20d2-4509-8b48-31abbdab716c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b7629ff0-aeb4-4d3a-8f55-188e49bd25af">
+                    <propertyInstance
+                      Id="0c99e677-9127-4164-a99b-57590c833a0c"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e53a0bc2-aa3b-43b9-8912-73c5616948e1"
+                  name="pBar"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d9489c0b-7695-4535-b28b-f28074a805e4"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVitor%2Fdocuments%2Fvisual studio 2012%2FProjects%2FControleMoldagem%2FControleMoldagem%2Fbin%2FDebug%2FControleMoldagem.exe&quot; Namespace%3DControleMoldagem Type%3DExltoDB Member%3D(Name%3DExportarResistencia OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DProgressBar)]) ParameterIdentifier%3DpBar"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="338ceb0e-a889-4761-9452-c4c6af9610b4"
+                      LastKnownName="ProgressBar"
+                      LastKnownLocation="Package1_1602.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="ee923955-110c-4cb9-a00f-40d3d8cb9584"
+            name="ExportarRuptura"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ef33c9c8-0fc9-4d80-9858-357f84d1d27c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVitor%2Fdocuments%2Fvisual studio 2012%2FProjects%2FControleMoldagem%2FControleMoldagem%2Fbin%2FDebug%2FControleMoldagem.exe&quot; Namespace%3DControleMoldagem Type%3DExltoDB Member%3D(Name%3DExportarRuptura OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DProgressBar)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="dbe16ded-ccdd-4246-aa9d-c6c15a7b7c37"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9e8f0238-58a3-470f-95bb-33ea2da2a760">
+                    <propertyInstance
+                      Id="c57f6d93-e0ac-4431-a9bf-c189af175dfc"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f6fabf5e-ca96-4ad9-b9dc-2458983291ce">
+                    <propertyInstance
+                      Id="86403ad0-c98c-4c85-943f-0286690ca0d6"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f8b58510-bf08-426c-9f53-bbc75ad6872e">
+                    <propertyInstance
+                      Id="dcfd5551-789e-471c-ae3f-62fb4f638ca8"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3fe9363a-64da-4666-82a6-6938816b5a8a">
+                    <propertyInstance
+                      Id="7f989bc4-777f-459e-a224-cecd9a35e690"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c3c13894-3d24-41c6-aee5-aaa8f19d6aa7">
+                    <propertyInstance
+                      Id="d2286a8c-c14b-4f0a-af25-4ffd52569db1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="87d81fe1-6e7f-4d5e-bc2d-83b7bc8b0a07">
+                    <propertyInstance
+                      Id="11e705b0-c626-41fb-8c98-1d48116f4346"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5a59a4e2-2dc5-4e4e-a295-2da93865df44"
+                  name="pBar"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="03dc97c2-7884-4e99-b1d6-c5f026073630"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVitor%2Fdocuments%2Fvisual studio 2012%2FProjects%2FControleMoldagem%2FControleMoldagem%2Fbin%2FDebug%2FControleMoldagem.exe&quot; Namespace%3DControleMoldagem Type%3DExltoDB Member%3D(Name%3DExportarRuptura OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DProgressBar)]) ParameterIdentifier%3DpBar"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="338ceb0e-a889-4761-9452-c4c6af9610b4"
+                      LastKnownName="ProgressBar"
+                      LastKnownLocation="Package1_1602.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="458fe8ae-564b-4f34-bcdc-87800cae77ca"
+            name="ExportarSerie"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="3b7c9fd6-775b-4ca8-937d-903f5a2430e4"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVitor%2Fdocuments%2Fvisual studio 2012%2FProjects%2FControleMoldagem%2FControleMoldagem%2Fbin%2FDebug%2FControleMoldagem.exe&quot; Namespace%3DControleMoldagem Type%3DExltoDB Member%3D(Name%3DExportarSerie OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DProgressBar)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8eb0b7a7-a338-40f3-bcbb-70596f0f2690"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0e97e5fa-0d0b-48c8-b9cd-d82ebdfb6c57">
+                    <propertyInstance
+                      Id="ecafa7b0-d3d4-4255-b930-f81552199524"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="60e01ee0-b1eb-4e82-a469-3c1e48d74bf7">
+                    <propertyInstance
+                      Id="deef14df-7cd6-42ce-9a96-6fbce089f77c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7a459168-f071-4673-adc2-d995d9fec5de">
+                    <propertyInstance
+                      Id="5857837e-e345-4f8c-9b7f-2b1da0729cdf"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="13e13095-cadd-4a0d-b4a0-0941bcb15c24">
+                    <propertyInstance
+                      Id="72923767-b612-49c8-b438-f195aba16cb5"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="83c2e432-b6c2-4e2f-bb9a-b073e33e591f">
+                    <propertyInstance
+                      Id="0ac1d9ee-43a7-425c-9d1f-7ca866c474da"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0030338f-3113-410c-9a23-3f6da741c60f">
+                    <propertyInstance
+                      Id="813248c4-48a3-41f6-9287-6f3d32d0f056"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="399cec41-52a7-48fa-913c-6b1f066fc86f"
+                  name="pBar"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="80924970-94e0-467e-8f54-59cadd4da763"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVitor%2Fdocuments%2Fvisual studio 2012%2FProjects%2FControleMoldagem%2FControleMoldagem%2Fbin%2FDebug%2FControleMoldagem.exe&quot; Namespace%3DControleMoldagem Type%3DExltoDB Member%3D(Name%3DExportarSerie OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DProgressBar)]) ParameterIdentifier%3DpBar"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="338ceb0e-a889-4761-9452-c4c6af9610b4"
+                      LastKnownName="ProgressBar"
+                      LastKnownLocation="Package1_1602.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="37592e81-6d58-4b55-b384-d447ebd9c16c"
+            name="ExportarLote"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="bf853c65-b3fe-476e-ac92-89ca96f49af6"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVitor%2Fdocuments%2Fvisual studio 2012%2FProjects%2FControleMoldagem%2FControleMoldagem%2Fbin%2FDebug%2FControleMoldagem.exe&quot; Namespace%3DControleMoldagem Type%3DExltoDB Member%3DExportarLote"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="48790184-d389-4d66-8698-4c8377e53938"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="36171f62-1b04-443e-9f3b-a833066608e6">
+                    <propertyInstance
+                      Id="3a78fbd5-d547-482e-b72c-246848bbdd95"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8c36a1f8-c2ca-4f3d-857a-f2caf9ee78b6">
+                    <propertyInstance
+                      Id="3a0616dc-11fb-4ef8-9d50-dab028b11cd8"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="17ef5f50-4d80-4cc7-a1dc-83dcd35b0805">
+                    <propertyInstance
+                      Id="a5051ccb-5040-4fd4-9f20-6a3c38b367fc"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="78c74054-0b8b-4001-9025-abb49db907ca">
+                    <propertyInstance
+                      Id="eb72b79f-139a-4990-97b7-6538481ddd71"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4c8d9724-959c-46c0-a3d9-690dd8400101">
+                    <propertyInstance
+                      Id="92c63500-c099-4218-ba83-9333ec6be50f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b3a8e5b1-dcd5-4944-94af-97bed2d390f0">
+                    <propertyInstance
+                      Id="688b4cb9-fbbe-4fed-a586-5524e070812e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="6eb95b91-9e41-40a5-9f01-4e821dfa7d38"
+            name="ExportarTeste"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="5d7c5eec-1825-492b-971d-adc20cec71ea"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVitor%2Fdocuments%2Fvisual studio 2012%2FProjects%2FControleMoldagem%2FControleMoldagem%2Fbin%2FDebug%2FControleMoldagem.exe&quot; Namespace%3DControleMoldagem Type%3DExltoDB Member%3DExportarTeste"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="523f8d86-35c8-48bf-b4f6-f250d5b74e83"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ff08a263-7449-46b4-9ad8-b8ee992ab1a8">
+                    <propertyInstance
+                      Id="94cd69c0-8da6-473c-ab3e-eff6c9454711"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="071a4eeb-aa21-43ef-873b-9e26f72d7402">
+                    <propertyInstance
+                      Id="3f22679c-6d37-470f-b3f3-fbbdc16b6cd1"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="199f791e-a29d-4212-b7cb-38e57bef238f">
+                    <propertyInstance
+                      Id="8edfcd5f-d3ea-4ebf-a825-a860255fbe03"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d2f7bb1c-859d-4a85-b91a-b9e056f30c7e">
+                    <propertyInstance
+                      Id="d2ff55f6-1e2f-43fb-859a-5073f5e77bfd"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="990e369a-5f81-4fd4-bea9-b3cbf4d21d13">
+                    <propertyInstance
+                      Id="b7fc3c4a-1554-4b11-9441-90a721ed2e40"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7defc2cb-3776-4bc9-b8d8-da6e13d1301f">
+                    <propertyInstance
+                      Id="1c01a476-9de9-4286-b63c-bb3f962ad7b7"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="9261d9f1-e928-40b0-88fd-aaccb3b776cd"
+            name="ExportarTraco"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="fe601572-b1ea-42b6-9960-d3a798b93f01"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVitor%2Fdocuments%2Fvisual studio 2012%2FProjects%2FControleMoldagem%2FControleMoldagem%2Fbin%2FDebug%2FControleMoldagem.exe&quot; Namespace%3DControleMoldagem Type%3DExltoDB Member%3DExportarTraco"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="112390a1-76bc-44c4-90c2-d87a2eebfce8"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8d04fc80-8485-4256-abc5-7d5a073154bb">
+                    <propertyInstance
+                      Id="c7d0f7f8-2f83-43ca-a558-4c14fa2a573d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7c1fe30f-7ea7-498f-908e-443f165d933e">
+                    <propertyInstance
+                      Id="1b20d27f-fe63-470f-b5ef-72af25ff45d6"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="23c4a3f9-fc99-4611-ac92-7050e17613f8">
+                    <propertyInstance
+                      Id="e1d204d8-a523-400e-ae72-fbda37a40925"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7eec30da-d895-4492-b938-0110222b177d">
+                    <propertyInstance
+                      Id="a432c31d-4bd0-49b1-8b27-d7cb4532c156"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8aaafb3c-a526-4810-a223-3c3efb375946">
+                    <propertyInstance
+                      Id="2262bda0-f7d2-4574-9a1b-f16a44114cca"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="050ce644-2ab1-4a4e-ac48-680a8202719d">
+                    <propertyInstance
+                      Id="ad4f5c19-1225-488f-bbbe-6aa7e2209050"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="0dec95a3-5178-4894-933a-ec4e2735c072"
+            name="ExltoDB"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="711f1b84-d755-450e-967f-078f8bacb8ed"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVitor%2Fdocuments%2Fvisual studio 2012%2FProjects%2FControleMoldagem%2FControleMoldagem%2Fbin%2FDebug%2FControleMoldagem.exe&quot; Namespace%3DControleMoldagem Type%3DExltoDB Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7286fce4-087c-4971-965d-11d58e01ec28"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a2025496-e8c4-44b4-b6cd-abbac67c1a30">
+                    <propertyInstance
+                      Id="a4561ace-ff34-40ff-9212-0dbb8cb54579"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2e388453-c65b-4341-b947-14252355969e">
+                    <propertyInstance
+                      Id="c4ed6493-0ee7-410e-a87e-52a4247d431e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1dcd99d7-4cea-41ca-9a42-6df7e674242c">
+                    <propertyInstance
+                      Id="d550db19-84cc-48a8-be4e-2ba617e76430"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="057863a0-cef5-4b98-8bf6-e659786c3c0b">
+                    <propertyInstance
+                      Id="0e71fdd4-00f0-4fc5-95ae-4bdf0cfbd2d3"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="72403eb5-9d09-48ff-8271-3b4c18063887">
+                    <propertyInstance
+                      Id="fb4de778-9afe-4b64-89ac-5e16eaa8f8a5"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="72666526-05c0-4f4d-bcfb-66f5f29ba4b6">
+                    <propertyInstance
+                      Id="da2df615-5aa1-40c5-a6b9-5c0589ec5359"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="f9d83ab0-7d21-468d-8ac9-8d9043f23e44"
+        name="Program"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="7e7afa34-19ba-49a7-b5d2-812037100e5a"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVitor%2Fdocuments%2Fvisual studio 2012%2FProjects%2FControleMoldagem%2FControleMoldagem%2Fbin%2FDebug%2FControleMoldagem.exe&quot; Namespace%3DControleMoldagem Type%3DProgram"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="75261f6d-b961-4f6b-8f08-62c4e8b4bb39"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="dca8bae1-b71b-480f-856f-2c05f5794b4f">
+                <propertyInstance
+                  Id="1f6db263-61cd-4c09-b87c-a413f5281681"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ca66b108-1aba-4ceb-b212-e5fc8df63c1d">
+                <propertyInstance
+                  Id="e2529eb6-7b1e-4e97-a602-8c61a02c3397"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5965ceb6-5829-4e02-a0ff-bb511ec1aea5">
+                <propertyInstance
+                  Id="9f36cd7d-7203-46ef-b520-b211ad3d6965"
+                  name="IsStatic"
+                  value="True" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8ae0896f-15ca-446a-bc59-99905809f67f">
+                <propertyInstance
+                  Id="7a9dd743-8ba5-433b-a9fd-aa22b7dcb484"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e36ded68-97c6-4416-b013-de682a0131ea">
+                <propertyInstance
+                  Id="e143626c-d9cf-4204-b58b-d939e8e410bc"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="52a46866-55ea-4cec-9b5f-f42e9a44bee9"
+            name="Main"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a5f16432-a840-4ee3-98f7-3336bae189fc"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVitor%2Fdocuments%2Fvisual studio 2012%2FProjects%2FControleMoldagem%2FControleMoldagem%2Fbin%2FDebug%2FControleMoldagem.exe&quot; Namespace%3DControleMoldagem Type%3DProgram Member%3DMain"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e4c8b8f5-c4e4-4578-9fa6-c5ade9228202"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2612b558-e440-48be-8d67-5446512c4edd">
+                    <propertyInstance
+                      Id="f6d6dca1-ee6b-425d-a8cb-e80191338289"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3c7fdd3b-f537-495b-b5a4-200366fed69c">
+                    <propertyInstance
+                      Id="21742645-cd41-4a3c-beb5-6bc1df1f8543"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bd69f532-eb50-40b2-b382-ed14389740c4">
+                    <propertyInstance
+                      Id="b59f21ce-9f29-4c20-bc0d-698784cb293e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="817151be-e45c-407e-9c45-e1f166885ee0">
+                    <propertyInstance
+                      Id="e048b336-bc37-47f9-91d4-dd72f12db14c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fb0e1475-d601-4cca-b247-e6e3448df142">
+                    <propertyInstance
+                      Id="f6279faa-9e9c-4e11-a11f-674335dee90a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="24b7c7eb-d778-41e0-aa60-72de794dfff4">
+                    <propertyInstance
+                      Id="10467332-944e-4a27-8e5f-84736fd8034d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="077eeb27-97f8-47d2-97e2-6e9e49762fb2"
+        LastKnownName="Properties"
+        LastKnownLocation="Package_1640.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="0f9bc0d4-2577-4898-af63-ce4b137d5f5c"
+        name="Form1"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="1e8dc721-e52e-409a-a082-cb7b0321fe36"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVitor%2Fdocuments%2Fvisual studio 2012%2FProjects%2FControleMoldagem%2FControleMoldagem%2Fbin%2FDebug%2FControleMoldagem.exe&quot; Namespace%3DControleMoldagem Type%3DForm1"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="da0b4bdb-4d53-4890-8c99-7c77d445abd4"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b9823f9c-08c1-4430-99c5-e05effb94ae0">
+                <propertyInstance
+                  Id="6c7f185c-2c0c-4a16-a631-56bdf58b7f76"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ab95c5f5-1623-4264-a0fd-c311005e290c">
+                <propertyInstance
+                  Id="8ea0faad-bd17-4881-9285-bc23f8df66d7"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="06235fa9-a654-4334-bd5c-c94cbbea0185">
+                <propertyInstance
+                  Id="2b0ecac2-6a58-4547-82f9-9e6b0ed9c994"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e3570687-6266-4a30-bc43-fff7dcc21bd1">
+                <propertyInstance
+                  Id="49344e80-7b26-4ff8-b69a-7a8839790203"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="74ee3857-2708-4f84-a00b-43c4651844ac">
+                <propertyInstance
+                  Id="64348f7c-1079-4146-b8c8-aa6f2204200e"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="e74ec4e1-bbf1-4031-bd81-9e746d22a505"
+            isSubstitutable="false">
+            <classMoniker
+              Id="0b5164a2-ad84-43d5-a3d2-174266a3556d"
+              LastKnownName="Form"
+              LastKnownLocation="Package1_1602.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="c07951fa-076c-4ee2-ba3f-9aa5c06fe615"
+            name="components"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="31aea3c9-affb-4b4a-bc1e-4a363bb323b4"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVitor%2Fdocuments%2Fvisual studio 2012%2FProjects%2FControleMoldagem%2FControleMoldagem%2Fbin%2FDebug%2FControleMoldagem.exe&quot; Namespace%3DControleMoldagem Type%3DForm1 Member%3Dcomponents"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="92107170-72cd-4793-b8e8-c01da43e7fd0"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f149676e-4329-449b-be0a-7a89836c2b86">
+                    <propertyInstance
+                      Id="620b6ff3-d6ed-4af8-b1df-c1ce3880a5a6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="13a0642a-b6f8-48c1-93c5-7396d4ec4b84">
+                    <propertyInstance
+                      Id="67c8ed09-6fe7-43ad-bffc-8233fa43d61d"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7dfe236e-7f12-4571-850b-daaf283ecd01">
+                    <propertyInstance
+                      Id="be3fd992-9c63-425a-999c-c0356d828447"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7b166fa1-b286-4ad9-b5bb-bedb7d7bd3b5">
+                    <propertyInstance
+                      Id="a2da4753-c8e9-484a-8e99-e989bd1937f8"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f46f7d7f-d1e2-4789-b33b-83215b13fe68">
+                    <propertyInstance
+                      Id="2923f4d5-bf52-4eb6-bc5c-294f0baa1fe8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="92af6ca0-fefd-4345-becb-2ab13d1be966"
+                LastKnownName="IContainer"
+                LastKnownLocation="Package1_1603.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="8cad95b7-e5fa-4e5c-ac8d-8c356c2fc03c"
+            name="label1"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="64d6acfe-9289-420f-8cff-f4d7edbfa869"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVitor%2Fdocuments%2Fvisual studio 2012%2FProjects%2FControleMoldagem%2FControleMoldagem%2Fbin%2FDebug%2FControleMoldagem.exe&quot; Namespace%3DControleMoldagem Type%3DForm1 Member%3Dlabel1"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="cae80ed0-f9b4-4c6d-8b38-28a80575052c"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ad723258-e807-4840-81d6-627b8250c35a">
+                    <propertyInstance
+                      Id="90805c7a-3663-4753-8a19-8dc8a89405f5"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b5a493e9-69c1-4daa-8e69-1c145dfcb97d">
+                    <propertyInstance
+                      Id="ae16d33b-2870-48fe-968d-be6e394da45b"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="28df2862-f1ce-456f-95c6-e5e2e59e229d">
+                    <propertyInstance
+                      Id="b204a93b-d6c3-40a4-967e-b5e7db2a5eae"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="229f9d28-4faa-4de2-a3d1-52a58f5ea760">
+                    <propertyInstance
+                      Id="8b030dd8-af33-47f2-b7a3-f85bdc423ed0"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bc96ff2d-3a01-4280-bca0-6a05f6984c16">
+                    <propertyInstance
+                      Id="c06b0b26-58c9-47c1-b367-d79b2e76d6ba"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="36d6128e-398f-47cd-8111-107366c6b40f"
+                LastKnownName="Label"
+                LastKnownLocation="Package1_1602.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="9d352ce9-b5b1-4cdd-9cf6-82f406d71f0f"
+            name="button1"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="8b7b4ed6-49ed-48ce-a004-1cf9e7044dee"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVitor%2Fdocuments%2Fvisual studio 2012%2FProjects%2FControleMoldagem%2FControleMoldagem%2Fbin%2FDebug%2FControleMoldagem.exe&quot; Namespace%3DControleMoldagem Type%3DForm1 Member%3Dbutton1"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="83004d39-387b-402d-8523-ad5e8ff93956"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5462d9e8-ec88-42c1-8f9f-9b2269839150">
+                    <propertyInstance
+                      Id="f2c4beec-ee84-491b-9097-04730e117d86"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="211e74ee-eb2c-462e-a8da-7f9ce5708c8c">
+                    <propertyInstance
+                      Id="d14f4264-de32-4ecd-a2d4-48751322a28e"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3b9e719d-640d-4bc4-8e03-ad827f7a477d">
+                    <propertyInstance
+                      Id="e765952a-f7a2-4361-ba60-da4e66a60568"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7eede961-c68a-421a-a7d8-bb57b3b26c48">
+                    <propertyInstance
+                      Id="387df5b0-cdaf-4074-892c-ce0cc40fed96"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c217cdd1-cce1-4003-b639-8cda82eb51e4">
+                    <propertyInstance
+                      Id="7a43e0a8-2868-40f8-8d27-a2e94596b975"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="52c221bb-11bf-4f22-b620-db9032ea0eda"
+                LastKnownName="Button"
+                LastKnownLocation="Package1_1602.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="daf3c9f6-e10e-470f-82a3-4ce105d50cfb"
+            name="progressBar1"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="5ca31c20-296a-444a-a7ce-5c317001a0e2"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVitor%2Fdocuments%2Fvisual studio 2012%2FProjects%2FControleMoldagem%2FControleMoldagem%2Fbin%2FDebug%2FControleMoldagem.exe&quot; Namespace%3DControleMoldagem Type%3DForm1 Member%3DprogressBar1"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8e979b73-dfb2-4adb-b532-32485ca1d71c"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8c3779ad-faff-4a60-97bd-e8ddbee7b70c">
+                    <propertyInstance
+                      Id="218d72d2-57e2-44a6-9071-5ec3e465f6af"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e25ad015-aae7-4ec3-91b1-8437a3e05d68">
+                    <propertyInstance
+                      Id="7eb96e89-859e-4a78-9640-d104a0c70407"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="697ea676-872a-46f3-b1f0-4d27e258b9b0">
+                    <propertyInstance
+                      Id="dcb3fdbb-c77b-4ad1-b571-26936ff78139"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eabf8e8d-0aaf-48bd-b423-136bdb3ccafd">
+                    <propertyInstance
+                      Id="2de57b52-8ac6-4b31-a3bb-eaaa05db3aa1"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="138cb4e6-48c6-4ded-adcb-d0f74d301230">
+                    <propertyInstance
+                      Id="c49d5f23-4bd9-4192-8458-7a74bbd8f606"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="338ceb0e-a889-4761-9452-c4c6af9610b4"
+                LastKnownName="ProgressBar"
+                LastKnownLocation="Package1_1602.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="d30cf558-3394-4d3d-96cb-240f4c2ee3ff"
+            name="txtBusca"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="e148926e-798c-43dd-86c0-4d0df2b940a4"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVitor%2Fdocuments%2Fvisual studio 2012%2FProjects%2FControleMoldagem%2FControleMoldagem%2Fbin%2FDebug%2FControleMoldagem.exe&quot; Namespace%3DControleMoldagem Type%3DForm1 Member%3DtxtBusca"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e8f43dd8-fe76-432e-badf-5b2ecbed6573"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="69b613a5-b601-42df-bf35-a1c7439974e7">
+                    <propertyInstance
+                      Id="ef5eb725-f3e0-41db-a68b-1251c2d2f26a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="306db8c8-d1a5-46ea-b650-1c02af6fed99">
+                    <propertyInstance
+                      Id="11aa65f1-f732-4c04-9235-7413a1d391c9"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="71d29641-49d3-4e64-9d43-99d3cdd7898f">
+                    <propertyInstance
+                      Id="4d64de2b-3fc9-4f47-a210-7d4f4fdd10bb"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3a3803ec-7aac-4cb2-9553-44c1c54552c4">
+                    <propertyInstance
+                      Id="c48b50ab-2cf3-4ba7-9bf5-f0c494d03e17"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e5977683-f7db-4def-bd04-04d42df1b9d1">
+                    <propertyInstance
+                      Id="107b1159-2c09-4f0c-8c46-a07f3339751d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="848cbd92-4835-4ad9-8228-fee626929eb0"
+                LastKnownName="TextBox"
+                LastKnownLocation="Package1_1602.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="057ceee9-9f73-4bbb-8c1d-5439e0d25a9e"
+            name="Dispose"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="38108c56-34cc-47d9-a14d-49f52d09d080"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVitor%2Fdocuments%2Fvisual studio 2012%2FProjects%2FControleMoldagem%2FControleMoldagem%2Fbin%2FDebug%2FControleMoldagem.exe&quot; Namespace%3DControleMoldagem Type%3DForm1 Member%3D(Name%3DDispose OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="afe04a70-2877-4610-8910-a02cee327f8f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f272656f-e133-4937-89aa-cc354f72ad5f">
+                    <propertyInstance
+                      Id="e4f0f440-6bbc-40e5-b111-80c3676e2ec4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fc98c09e-1d22-433e-9af1-93fa2ebab9ff">
+                    <propertyInstance
+                      Id="7923ca30-b926-4730-8d8b-88bd2812a6c0"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2f27425b-6044-492a-b710-f501238bc354">
+                    <propertyInstance
+                      Id="53d70790-642c-4598-bb35-cb5599b9b1eb"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0c17045c-b412-4b17-8a99-9f9957761bdb">
+                    <propertyInstance
+                      Id="96a579ec-1cae-49e0-96cf-c6fb04ef66c2"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0132f7e0-d296-48ff-bfdf-ff465a0018c7">
+                    <propertyInstance
+                      Id="b01dd9a3-8f78-4fb8-af8a-75ffda7ce138"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4d0fc97e-4813-43df-ab83-bed98098fb89">
+                    <propertyInstance
+                      Id="a53148a8-87e4-4811-8e79-0aa9a06705b6"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="0bffbb89-aa62-44c8-84b6-de7903ba5d27"
+                  name="disposing"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="73b450b6-defa-486b-b771-e0af838c7030"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVitor%2Fdocuments%2Fvisual studio 2012%2FProjects%2FControleMoldagem%2FControleMoldagem%2Fbin%2FDebug%2FControleMoldagem.exe&quot; Namespace%3DControleMoldagem Type%3DForm1 Member%3D(Name%3DDispose OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]) ParameterIdentifier%3Ddisposing"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="ModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="7e0862bf-a793-408f-920f-1e1c8904ac9d"
+            name="InitializeComponent"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="893761aa-308a-4e58-a477-b5100d13cb06"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVitor%2Fdocuments%2Fvisual studio 2012%2FProjects%2FControleMoldagem%2FControleMoldagem%2Fbin%2FDebug%2FControleMoldagem.exe&quot; Namespace%3DControleMoldagem Type%3DForm1 Member%3DInitializeComponent"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6e27e8cb-39d5-40cc-84f5-b3d4d9cb0b6a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c32119cc-728c-4f04-aba6-6cb9f48f494f">
+                    <propertyInstance
+                      Id="c37499a1-028a-4536-81d8-d00cf036fa9b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3fce10e4-fb51-4f64-963a-84881d282441">
+                    <propertyInstance
+                      Id="cc2cae05-ba56-417b-93f3-feb146193599"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="50d45260-b5d5-4a49-8f20-2154ad685031">
+                    <propertyInstance
+                      Id="909e148c-9a4c-4f9f-a099-203fe1b9765d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="58a109cf-01b1-4219-8319-14a2449fb8cf">
+                    <propertyInstance
+                      Id="9dbcb25a-b9d7-4cd1-8296-b7a048eecbfc"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4b729bc2-14d2-40fe-9283-2812fbd93a62">
+                    <propertyInstance
+                      Id="54036df2-c13f-4233-ba9d-ec8981feac7c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d9089aea-f0d0-44dd-bfaa-6b206e20fc2b">
+                    <propertyInstance
+                      Id="a2bf38e9-4a3f-426a-9759-1e2207e874b2"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="c6074934-cfb4-49ed-a5fb-a3d12136b8a2"
+            name="Form1_Load"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="bbcf6e69-9e7c-4cdf-90fc-72152271364c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVitor%2Fdocuments%2Fvisual studio 2012%2FProjects%2FControleMoldagem%2FControleMoldagem%2Fbin%2FDebug%2FControleMoldagem.exe&quot; Namespace%3DControleMoldagem Type%3DForm1 Member%3D(Name%3DForm1_Load OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7af62078-64e5-41bc-9cce-ef69b4919423"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ae899fe0-037a-4cde-b9b5-121e51f9b067">
+                    <propertyInstance
+                      Id="5d30e857-1cb1-44bc-8934-357c593b5189"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bfac9664-44c2-4a46-86ad-546191b5da0f">
+                    <propertyInstance
+                      Id="be1ae020-8d56-4b85-8230-e2a477e6a7b8"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dad88230-4c56-4f29-9e5c-a2fcbdce6cfa">
+                    <propertyInstance
+                      Id="73cee285-5065-446c-9576-1d067a7ae570"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aa574262-1f1a-4f1a-947d-3871cdab6218">
+                    <propertyInstance
+                      Id="a7110a1b-6056-4450-a364-2d8be83d08f5"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b4bb4f57-49cd-4c91-a29c-76bbe0fb889a">
+                    <propertyInstance
+                      Id="e5c0be90-3e87-4a40-9157-77044e44f943"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6bfc5b1a-f45c-4987-b7d9-eb12d6dc6c44">
+                    <propertyInstance
+                      Id="f3dce383-e56e-4b61-9d00-b667d8aed841"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="2228135a-2209-4d62-a719-008fef4bded1"
+                  name="sender"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="6e306dd6-73b3-4d43-9fb4-c429471220ff"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVitor%2Fdocuments%2Fvisual studio 2012%2FProjects%2FControleMoldagem%2FControleMoldagem%2Fbin%2FDebug%2FControleMoldagem.exe&quot; Namespace%3DControleMoldagem Type%3DForm1 Member%3D(Name%3DForm1_Load OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="d9bedfb1-d893-48f0-abf8-52b638a77c39"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package2_1558.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a933fd5d-8187-4bf4-b131-68d0ad7873d9"
+                  name="e"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="295b5717-0b5b-4434-9f68-7d58faccf0b8"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVitor%2Fdocuments%2Fvisual studio 2012%2FProjects%2FControleMoldagem%2FControleMoldagem%2Fbin%2FDebug%2FControleMoldagem.exe&quot; Namespace%3DControleMoldagem Type%3DForm1 Member%3D(Name%3DForm1_Load OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="6e93cbde-9422-42d5-8b32-571ee96af594"
+                      LastKnownName="EventArgs"
+                      LastKnownLocation="Package2_1558.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="622d8c90-7040-4b90-bede-d74a756d21ed"
+            name="button1_Click"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="655570ce-b8b4-48d3-971b-a91a9d295f9f"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVitor%2Fdocuments%2Fvisual studio 2012%2FProjects%2FControleMoldagem%2FControleMoldagem%2Fbin%2FDebug%2FControleMoldagem.exe&quot; Namespace%3DControleMoldagem Type%3DForm1 Member%3D(Name%3Dbutton1_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="30726388-5543-4889-9f79-ca3d411c4200"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ef820560-fce6-4308-95de-b20a2843de61">
+                    <propertyInstance
+                      Id="b2fb5583-6476-46a2-9a7b-6dfd77609924"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4840844f-f16f-4634-89de-c723d9d5a985">
+                    <propertyInstance
+                      Id="2a44b6bd-6f8e-45fb-b826-274546b3e079"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="509ea23e-35d2-4cf9-8d0e-2695da68432a">
+                    <propertyInstance
+                      Id="b7819c50-6aa7-4052-b5cf-06975e9be8b6"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c73d78e8-13bc-4faf-abad-b43fb2ec0b2f">
+                    <propertyInstance
+                      Id="89232611-e22d-410b-ab32-5f7dea1addaf"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f80299dd-751e-4861-a359-e728c1e10c9a">
+                    <propertyInstance
+                      Id="769daab8-122d-40ce-9662-b67684259534"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e1891a77-b669-4b27-aa7e-c05db516d88b">
+                    <propertyInstance
+                      Id="8de17fe2-a090-4d75-bc5c-af113556f426"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a27a1645-eecb-4353-bd84-7073f45382ea"
+                  name="sender"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="763a3dcb-f882-4598-beae-2b0ce9b2c2a5"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVitor%2Fdocuments%2Fvisual studio 2012%2FProjects%2FControleMoldagem%2FControleMoldagem%2Fbin%2FDebug%2FControleMoldagem.exe&quot; Namespace%3DControleMoldagem Type%3DForm1 Member%3D(Name%3Dbutton1_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="d9bedfb1-d893-48f0-abf8-52b638a77c39"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package2_1558.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="30c7ec13-f217-425c-bc58-8741baa337f7"
+                  name="e"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="e9470271-fd89-4d10-adfa-950be69b2e81"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVitor%2Fdocuments%2Fvisual studio 2012%2FProjects%2FControleMoldagem%2FControleMoldagem%2Fbin%2FDebug%2FControleMoldagem.exe&quot; Namespace%3DControleMoldagem Type%3DForm1 Member%3D(Name%3Dbutton1_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="6e93cbde-9422-42d5-8b32-571ee96af594"
+                      LastKnownName="EventArgs"
+                      LastKnownLocation="Package2_1558.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="09334ea6-12b9-4494-b392-ccc49c4bf8d7"
+            name="Form1"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="93877e5a-6be9-4ad2-8e62-3842eae180b7"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FVitor%2Fdocuments%2Fvisual studio 2012%2FProjects%2FControleMoldagem%2FControleMoldagem%2Fbin%2FDebug%2FControleMoldagem.exe&quot; Namespace%3DControleMoldagem Type%3DForm1 Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="04f836ec-6edd-4c7e-8f76-92ddc1f2202e"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1908387f-bf0a-4c51-bf2c-a722f4a5c603">
+                    <propertyInstance
+                      Id="9e63d6a8-9e8e-4744-9792-c91f46ebac5c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="56d9b9b1-75c8-4cd9-96be-9b87d862c858">
+                    <propertyInstance
+                      Id="625ec441-7436-4b16-815f-8e5728fbc6bd"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="037b3224-5f8e-4f4f-a457-8b0cd5f83f33">
+                    <propertyInstance
+                      Id="64560856-b9f4-4d76-b472-e90f58951ed2"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3b924397-45c7-4bc6-98cd-6616cd73ea28">
+                    <propertyInstance
+                      Id="4d60555f-4d59-4497-b945-2b1337ead26a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4923726d-0bbd-48c2-96a5-a1332c5e696a">
+                    <propertyInstance
+                      Id="15a46f4f-f756-4596-a3a9-a1e5eac2ab03"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="db7ea7bf-2d2a-4b8b-a3f2-e1be9e460f96">
+                    <propertyInstance
+                      Id="ee717ade-02c1-421b-9ba7-c23076df7a27"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
